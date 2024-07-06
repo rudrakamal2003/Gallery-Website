@@ -35,7 +35,7 @@
   background-color: #088178;
   position: absolute;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .navbar .nab {
     padding-left: 10px;
     padding-top: 8px;
@@ -66,7 +66,7 @@
   color: azure;
   padding: 10px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .thum {
     background: url(../images/thumb3.jpeg);
     width: 100%;
@@ -98,7 +98,7 @@
   object-fit: cover;
   border-radius: 10px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .container .image {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
