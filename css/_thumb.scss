@@ -1,12 +1,3 @@
-// .thum{
-//     padding-top: 5px;
-
-//     img {
-//         border-radius: 10px;
-//         width: 100%;
-//         height: 500px;
-//     }
-// }
 .thum {
     background: url(../images/thumb.jpeg);
     width: 100%;
@@ -20,28 +11,12 @@
         padding: 10px;
     }
 
-}
-@media screen and (max-width: 700px) {
-    .thum {
-        background: url(../images/thumb\(400px\).jpeg);
-        width: 100%;
-        height: 500px;
-    }
-}
-
-@media screen and (max-width:1080px) and (min-width: 701px) {
-    .thum {
-        background: url(../images/thumb.jpeg);
-        width: 100%;
-        height: 500px;
-        border-radius: 10px;
-        padding-bottom: 0;
-    
-        h3 {
-            text-align: center;
-            color: azure;
-            padding: 10px;
+    @media screen and (max-width: 425px) {
+        & {
+            background: url(../images/thumb3.jpeg);
+            width: 100%;
+            height: 550px;
         }
-    
     }
+
 }
