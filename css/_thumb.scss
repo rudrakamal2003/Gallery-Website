@@ -37,3 +37,20 @@
     
     }
 }
+
+@media screen and (max-width:1080px) {
+    .thum {
+        background: url(../images/thumb.jpeg);
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        padding-bottom: 0;
+    
+        h3 {
+            text-align: center;
+            color: azure;
+            padding: 10px;
+        }
+    
+    }
+}
