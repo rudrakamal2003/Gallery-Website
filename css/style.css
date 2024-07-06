@@ -36,7 +36,7 @@
   position: absolute;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .navbar {
     background-color: aqua;
     border-radius: 10px;
@@ -85,7 +85,7 @@
   padding: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .thum {
     background: url(../images/thumb\(400px\).jpeg);
     width: 100%;
@@ -123,7 +123,7 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .container {
     padding: 5px;
   }
