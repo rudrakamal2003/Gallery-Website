@@ -36,7 +36,7 @@
   position: absolute;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .navbar {
     background-color: aqua;
     border-radius: 10px;
@@ -69,7 +69,7 @@
   padding: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .thum {
     background: url(../images/thumb\(400px\).jpeg);
     width: 100%;
@@ -101,7 +101,7 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .container .image {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
