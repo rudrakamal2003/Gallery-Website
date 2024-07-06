@@ -1,0 +1,10 @@
+$bg:aqua;
+
+*{
+    box-sizing: border-box;
+}
+
+@import "_nav.scss";
+@import "_thumb.scss";
+@import "_footer.scss";
+@import "_con.scss";
