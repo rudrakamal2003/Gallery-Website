@@ -29,4 +29,16 @@
         }
     }
 
+    @media screen and (max-width: 1080px) and (min-width: 600px) {
+        .image {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+            img {
+                max-width: 370px;
+                height: 500px;
+            }
+        }
+    }
+
 }

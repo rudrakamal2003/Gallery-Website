@@ -53,6 +53,24 @@
     font-size: 17px;
   }
 }
+@media screen and (max-width: 1080px) and (min-width: 600px) {
+  .navbar .nab {
+    padding-left: 210px;
+    padding-top: 10px;
+  }
+  .navbar .nab li {
+    padding-left: 10px;
+  }
+  .navbar .nab li a {
+    font-size: 15px;
+  }
+  .navbar .logo {
+    padding-left: 10px;
+  }
+  .navbar .logo h2 {
+    font-size: 20px;
+  }
+}
 
 .thum {
   background: url(../images/thumb.jpeg);
@@ -105,6 +123,16 @@
   }
   .container .image img {
     max-width: 341px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 600px) {
+  .container .image {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .container .image img {
+    max-width: 370px;
     height: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
