@@ -86,8 +86,8 @@
 }
 @media screen and (max-width: 550px) {
   .thum {
-    background: url(../images/thumb3.jpeg);
-    width: 100%;
+    background: url(../images/thumb3.jpeg) no-repeat;
+    width: auto;
     height: 550px;
   }
 }
@@ -132,7 +132,7 @@
     grid-template-rows: repeat(3, 1fr);
   }
   .container .image img {
-    max-width: 370px;
+    width: auto;
     height: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
