@@ -51,81 +51,62 @@
         }
     
         .nab {
-            display: flex;
-            position: relative;
-            padding-top: 10px;
             padding-left: 8px;
-            list-style: none;
     
             li {
                 padding-left: 22px;
-    
                 a {
-                    text-decoration: none;
-                    color: black;
                     font-size: 12px;
                 }
     
-                a:hover,
-                .active {
-                    color: #088178;
-                    text-decoration: underline;
-                }
-    
-                a.active::after,
-                a:hover::after {
-                    background-color: #088178;
-                    position: absolute;
-    
-                }
             }
         }
     }
 
 }
 
-@media screen and (max-width:1080px) {
-    .navbar {
-        background-color: $bg;
-        border-radius: 10px;
-        display: flex;
+// @media screen and (max-width:1080px) {
+//     .navbar {
+//         background-color: $bg;
+//         border-radius: 10px;
+//         display: flex;
 
     
-        .logo {
-            padding-left: 15px;
-            font-size: 15px;
-        }
+//         .logo {
+//             padding-left: 15px;
+//             font-size: 15px;
+//         }
     
-        .nab {
-            display: flex;
-            position: relative;
-            padding-top: 10px;
-            padding-left: 500px;
-            list-style: none;
+//         .nab {
+//             display: flex;
+//             position: relative;
+//             padding-top: 10px;
+//             padding-left: 500px;
+//             list-style: none;
     
-            li {
-                padding-left: 22px;
+//             li {
+//                 padding-left: 22px;
     
-                a {
-                    text-decoration: none;
-                    color: black;
-                    font-size: 12px;
-                }
+//                 a {
+//                     text-decoration: none;
+//                     color: black;
+//                     font-size: 12px;
+//                 }
     
-                a:hover,
-                .active {
-                    color: #088178;
-                    text-decoration: underline;
-                }
+//                 a:hover,
+//                 .active {
+//                     color: #088178;
+//                     text-decoration: underline;
+//                 }
     
-                a.active::after,
-                a:hover::after {
-                    background-color: #088178;
-                    position: absolute;
+//                 a.active::after,
+//                 a:hover::after {
+//                     background-color: #088178;
+//                     position: absolute;
     
-                }
-            }
-        }
-    }
+//                 }
+//             }
+//         }
+//     }
 
-}
+// }
